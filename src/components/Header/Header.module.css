@@ -1,0 +1,23 @@
+.inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.link {
+  border-radius: var(--mantine-radius-lg);
+  text-decoration: none;
+  color: light-dark(var(--mantine-color-gray-7), var(--mantine-color-dark-0));
+  font-size: xx-large;
+  font-weight: 500;
+  padding: 10% 20%;
+
+  [data-mantine-color-scheme] &[data-active] {
+    background-color: var(--mantine-color-blue-filled);
+    color: var(--mantine-color-white);
+  }
+}
+
+.navWrap {
+  display: flex;
+  justify-content: space-evenly;
+}

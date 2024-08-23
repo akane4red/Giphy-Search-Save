@@ -1,0 +1,7 @@
+.background {
+    background-color: var(--mantine-color-dark-6);
+    padding: 26px;
+}
+.see-more{
+    margin: 25px;
+}

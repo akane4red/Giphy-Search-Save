@@ -1,0 +1,7 @@
+.background {
+    background-color: var(--mantine-color-dark-6);
+    padding: 26px;
+}
+.gif-container{
+    margin: 25px;
+}
